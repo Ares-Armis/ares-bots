@@ -1,10 +1,11 @@
-# 💡 Komut Kategorileri
+# 🔍 Komutlar ve Görüntüler
 
 Aşağıda botun desteklediği tüm `.setup` komutları kategorilere ayrılmış şekilde listelenmiştir:
 
 ---
 
-## 👑 Yönetim Komutları
+<details>
+<summary>👑 Yönetim Komutları</summary>
 
 | Komut | Açıklama |
 |-------|----------|
@@ -16,9 +17,12 @@ Aşağıda botun desteklediği tüm `.setup` komutları kategorilere ayrılmış
 | `.setupbanlimit` | Moderasyon için günlük maksimum ban sınırını belirlersiniz. |
 | `.setupkicklimit` | Günlük maksimum kick sınırını belirlersiniz. |
 
+</details>
+
 ---
 
-## 🎮 Kayıt Komutları
+<details>
+<summary>🎮 Kayıt Komutları</summary>
 
 | Komut | Açıklama |
 |-------|----------|
@@ -29,9 +33,12 @@ Aşağıda botun desteklediği tüm `.setup` komutları kategorilere ayrılmış
 | `.setupkadınrol` | Kadın üyeler için verilecek rolü ayarlarsınız. |
 | `.setupkayıtlog` | Kayıt işlemlerinin loglanacağı kanalı ayarlarsınız. |
 
+</details>
+
 ---
 
-## 📛 Ceza Komutları
+<details>
+<summary>📛 Ceza Komutları</summary>
 
 | Komut | Açıklama |
 |-------|----------|
@@ -41,9 +48,12 @@ Aşağıda botun desteklediği tüm `.setup` komutları kategorilere ayrılmış
 | `.setupmutelog` | Mute işlemlerinin loglanacağı kanalı ayarlarsınız. |
 | `.setupwarnlog` | Uyarı sisteminin loglarının gönderileceği kanalı ayarlarsınız. |
 
+</details>
+
 ---
 
-## 📢 Etiket ve Duyuru Komutları
+<details>
+<summary>📢 Etiket ve Duyuru Komutları</summary>
 
 | Komut | Açıklama |
 |-------|----------|
@@ -51,9 +61,12 @@ Aşağıda botun desteklediği tüm `.setup` komutları kategorilere ayrılmış
 | `.setupduyuru` | Duyuru mesajlarının gönderileceği kanalı ayarlarsınız. |
 | `.setuptagrol` | Belirli tagı taşıyanlara özel rol verir. |
 
+</details>
+
 ---
 
-## 🛠️ Diğer Kurulumlar
+<details>
+<summary>🛠️ Diğer Kurulumlar</summary>
 
 | Komut | Açıklama |
 |-------|----------|
@@ -64,9 +77,12 @@ Aşağıda botun desteklediği tüm `.setup` komutları kategorilere ayrılmış
 | `.setupkurallar` | Kurallar kanalını ayarlarsınız. |
 | `.setupisimtag` | Yeni gelen üyelerin isimlerine eklenecek tagı belirlersiniz. |
 
+</details>
+
 ---
 
-## 🔒 Güvenlik & Koruma
+<details>
+<summary>🔒 Güvenlik & Koruma</summary>
 
 | Komut | Açıklama |
 |-------|----------|
@@ -74,6 +90,8 @@ Aşağıda botun desteklediği tüm `.setup` komutları kategorilere ayrılmış
 | `.setupküfürengel` | Küfürlü mesajları otomatik olarak siler. |
 | `.setupspamengel` | Spam atılmasını engeller. |
 
+</details>
+
 ---
 
-> 📌 Her bir komutu çalıştırarak sistemleri kolayca kurabilirsiniz. Daha fazla yardım için `.yardım` yazmanız yeterli.
+📌 Her bir komutu çalıştırarak sistemleri kolayca kurabilirsiniz. Daha fazla yardım için `.yardım` yazmanız yeterli.
