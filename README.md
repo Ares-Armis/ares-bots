@@ -9,7 +9,7 @@ Botun Fiyatını Öğrenmek İçin Ve Botla İlgili Daha Çok Bilgi Almak İçin
 - 🌆 **Kontrol Paneli:** Kontrol panelimiz aracılığıyla bot ayarlarını zahmetsizce yönetin.
 - 💡  **Web Panel:** Çok Yakında Yazacam Dostlar Gerek Yok Setup Tan Herşeyi Kurmak 20 Dk Ama Yazacaz Yakın Zamanda.
 - 📝 **Kolay Yapılandırma:** Kurulumu çocuk oyuncağı haline getiren kolaylaştırılmış yapılandırma süreci.
-- 💯 **245+ Komut:** Sunucunuzun deneyimini zenginleştirmek için 150'den fazla çok yönlü komuta erişin.
+- 💯 **245+ Komut:** Sunucunuzun deneyimini zenginleştirmek için 245'den fazla çok yönlü komuta erişin.
   
 ## 🍭 Komutlar Ve Kategoriler</h1>
 
