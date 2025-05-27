@@ -1,45 +1,10 @@
-<!DOCTYPE html>
-<html lang="tr">
-<head>
-  <meta charset="UTF-8">
-  <title>Discord Bot Komut Listesi</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      padding: 20px;
-      background: #f9f9f9;
-      color: #333;
-    }
-    details {
-      margin-bottom: 15px;
-      border: 1px solid #ccc;
-      border-radius: 8px;
-      background: #fff;
-      padding: 10px 15px;
-    }
-    summary {
-      font-size: 18px;
-      font-weight: bold;
-      cursor: pointer;
-      margin-bottom: 10px;
-    }
-    pre {
-      background: #f0f0f0;
-      padding: 10px;
-      border-radius: 6px;
-      overflow-x: auto;
-    }
-  </style>
-</head>
-<body>
-
 <h1>Discord Bot Komut Listesi</h1>
 <p>Bu döküman, sunucunuzda kullanılan tüm bot komutlarını kategorilere ayrılmış şekilde listeler. Komutlar, kullanım kolaylığı ve hızlı erişim amacıyla detay/özet görünümü ile yapılandırılmıştır.</p>
 
 <h2>Komut Kategorileri</h2>
 
 <details>
-  <summary>👤 Kullanıcı Komutları</summary>
+  <summary>👤 User Komutları</summary>
   <pre>
 .yilbasi
 .50krs @Ares/ID
@@ -174,7 +139,148 @@
   </pre>
 </details>
 
-<!-- Diğer kategoriler buraya eklenebilir -->
+<details>
+  <summary>💡 Terfi Komutları</summary>
+  <pre>
+.düşür @Ares/ID
+.görev-al
+.görevler @Ares/ID
+.yetkili @Ares/ID
+.yetkiver @Ares/ID
+.ytcek @Ares/ID
+.yetkial @Ares/ID
+.yükselt @Ares/ID
+  </pre>
+</details>
+
+<details>
+  <summary>🛠️ Yetkili Komutları</summary>
+  <pre>
+.bağlantı-kes @Ares/ID
+.nerede @Ares/ID
+.rolbilgi @Rol/ID
+.roldenetim @Rol/ID
+.rol-log @Ares/ID
+.say
+.sicil @Ares/ID
+.sil
+.snipe
+.ksil [Miktar] @Kullanıcı
+  </pre>
+</details>
+
+<details>
+  <summary>🛠️ Üst Yönetim Komutları</summary>
+  <pre>
+.chatengel
+.chatengel-liste
+.veri-sil @Ares/ID
+.denetim @Rol/ID
+.dmyaz
+.ekip [ekle/sil/kontrol/bilgi/liste]
+.emojiekle [Emoji]
+.kanal-kilit
+.link
+.mazeret [Sebep]
+.puan [Ekle/Sil] [@Ares/ID] [Sayı]
+.rank ekle/sil/liste/ayarla/düzenle [Puan] @Rol/ID - @Hammer/ID
+.rankbilgi
+.roles ver/al @Ares/ID
+.senkronize [Üye] @Ares/ID / [Role] @Rol/ID
+.sticker [Sticker]
+.toplantı
+.allmute
+.allunmute
+.toplutaşı [Taşıyacağınız Kanal]
+.yasakkelime <Kelime>
+.yasgun
+.yetkilisay
+.yetkilisay2
+.ystat @Ares/ID
+.İltifat ekle/sil/liste/düzenle
+  </pre>
+</details>
+
+<details>
+  <summary>📢 Owner Komutları</summary>
+  <pre>
+.commands aç/kapat
+.dolar [ekle/sil] [kullanıcı] [sayı]
+.dolarekle @Ares/ID <Miktar>
+.emojiid
+.emojisil
+.greroll [Mesaj ID]
+.çekiliş 10m 1 Nitro
+.komut-izin ekle/sil/liste [Komut] @Ares/Rol
+.command banned @Ares/ID
+.level-rol ekle/sil/liste Mesaj [10] [@Rol/ID]
+.menü
+.reklam-kanal ekle/sil/liste #Kanal/ID
+.Reklam SS sistemi kurulumunu başlatır.
+.rolalma
+.rolmenü
+.rolver @Ares/ID <Rol Id>.
+.ry
+.sicil-sıfırla @Ares/ID
+.sunucu-banner
+.sunucu-pp
+.taglı-alım
+.yasaklıtag [ekle/sil] [tag] / [say/liste]
+.komut ekle/sil/liste/bilgi
+  </pre>
+</details>
+
+</details>
+  <summary>👑 Ares Komutları</summary>
+  <pre>
+.ares
+.botaekle <ID>
+.bottançıkar <ID>
+.cezapanel
+.kanalolustur [kanal ismi]
+.eval [Code]
+.gsetup
+.guardsetup
+.yaz
+.whlitelist @Ares/ID
+.herkeserolver @Rol/ID
+.kayıtmesaj
+.isimkontrol @Rol/ID
+.istifapanel
+.itirafpanel
+.kayıtpanel
+.kordine @Rol/ID sayı
+.kurulum
+.lb kur (kurulumunu başlatır veya sıfırlar.)
+.limit
+.locaizin
+.loca
+.nuke
+.otocevap
+.pm2
+.prefixçıkar <prefix>
+.prefixekle <prefix>
+.referans
+.rololustur <rol ismi> <renk ismi>
+.rkurulum
+.rolsuz ver
+.ayar
+.setupyardım
+.setups
+.sorumlulukpanel
+.sorunçözmepanel
+.stat-sıfırla all/aylık/haftalık/günlük
+.streamerbaşvuru
+.streameryönet
+.swentegre
+.sç 
+.userpanel
+.wl @Ares/Rol
+.yetkilibaşvuru
+.özeloda
+.şüphelibutton
+  </pre>
+</details>
 
 </body>
 </html>
