@@ -4,10 +4,8 @@
 - 🌆 **Kontrol Paneli:** Kontrol panelimiz aracılığıyla bot ayarlarını zahmetsizce yönetin.
 - 📝 **Kolay Yapılandırma:** Kurulumu çocuk oyuncağı haline getiren kolaylaştırılmış yapılandırma süreci.
 - 💯 **245+ Komut:** Sunucunuzun deneyimini zenginleştirmek için 150'den fazla çok yönlü komuta erişin.
-- 
-<h1>Discord Bot Komut Listesi</h1>
-<p>Bu döküman, sunucunuzda kullanılan tüm bot komutlarını kategorilere ayrılmış şekilde listeler. Komutlar, kullanım kolaylığı ve hızlı erişim amacıyla detay/özet görünümü ile yapılandırılmıştır.</p>
-
+  
+<h1🍭 >Discord Bot Komut Listesi</h1>
 <h2>Komut Kategorileri</h2>
 
 <details>
