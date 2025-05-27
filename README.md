@@ -1,14 +1,46 @@
-# Discord Bot Komut Listesi
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Discord Bot Komut Listesi</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background: #f9f9f9;
+      color: #333;
+    }
+    details {
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      background: #fff;
+      padding: 10px 15px;
+    }
+    summary {
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+      margin-bottom: 10px;
+    }
+    pre {
+      background: #f0f0f0;
+      padding: 10px;
+      border-radius: 6px;
+      overflow-x: auto;
+    }
+  </style>
+</head>
+<body>
 
-Bu döküman, sunucunuzda kullanılan tüm bot komutlarını kategorilere ayrılmış şekilde listeler. Komutlar, kullanım kolaylığı ve hızlı erişim amacıyla detay/özet görünümü ile yapılandırılmıştır.
+<h1>Discord Bot Komut Listesi</h1>
+<p>Bu döküman, sunucunuzda kullanılan tüm bot komutlarını kategorilere ayrılmış şekilde listeler. Komutlar, kullanım kolaylığı ve hızlı erişim amacıyla detay/özet görünümü ile yapılandırılmıştır.</p>
 
-## Komut Kategorileri
+<h2>Komut Kategorileri</h2>
 
-### <details>
-
-<summary><strong>👤 Kullanıcı Komutları</strong></summary>
-
-```
+<details>
+  <summary>👤 Kullanıcı Komutları</summary>
+  <pre>
 .yilbasi
 .50krs @Ares/ID
 .afk
@@ -101,15 +133,12 @@ Bu döküman, sunucunuzda kullanılan tüm bot komutlarını kategorilere ayrıl
 .ısır @Ares/ID
 .şanslıgün
 .şanslısayı
-```
-
+  </pre>
 </details>
 
-### <details>
-
-<summary><strong>⚖️ Cezalandırma Komutları</strong></summary>
-
-```
+<details>
+  <summary>⚖️ Cezalandırma Komutları</summary>
+  <pre>
 .ban @Ares/ID Sebep
 .banliste
 .cezasorgu CezaID
@@ -128,15 +157,12 @@ Bu döküman, sunucunuzda kullanılan tüm bot komutlarını kategorilere ayrıl
 .untjail @Ares/ID
 .unvmute @Ares/ID
 .vmute @Ares/ID Süre Sebep
-```
-
+  </pre>
 </details>
 
-### <details>
-
-</details><strong>📝 Kayıt Komutları</strong></details>
-
-```
+<details>
+  <summary>📝 Kayıt Komutları</summary>
+  <pre>
 .detaylı-isimler @Ares/ID
 .kayıt @Ares/ID [İsim] [Yaş] [Cinsiyet]
 .kayıtsız @Ares/ID
@@ -145,8 +171,10 @@ Bu döküman, sunucunuzda kullanılan tüm bot komutlarını kategorilere ayrıl
 .kayıtları @Ares/ID
 .isim @Ares/ID [İsim] [Yaş]
 .isimler @Ares/ID
-```
-
+  </pre>
 </details>
 
-<!-- Diğer kategoriler aşağıya eklenecek -->
+<!-- Diğer kategoriler buraya eklenebilir -->
+
+</body>
+</html>
