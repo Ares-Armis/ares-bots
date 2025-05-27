@@ -1,97 +1,152 @@
-# 🔍 Komutlar ve Görüntüler
+# Discord Bot Komut Listesi
 
-Aşağıda botun desteklediği tüm `.setup` komutları kategorilere ayrılmış şekilde listelenmiştir:
+Bu döküman, sunucunuzda kullanılan tüm bot komutlarını kategorilere ayrılmış şekilde listeler. Komutlar, kullanım kolaylığı ve hızlı erişim amacıyla detay/özet görünümü ile yapılandırılmıştır.
 
----
+## Komut Kategorileri
 
-<details>
-<summary>👑 Yönetim Komutları</summary>
+### <details>
 
-| Komut | Açıklama |
-|-------|----------|
-| `.setupotorol` | Sunucuya yeni katılan üyelere otomatik rol verir. |
-| `.setupotorolgiriş` | Otorol verildiğinde gönderilecek hoş geldin mesajını ayarlarsınız. |
-| `.setupotorolkanal` | Otorol mesajlarının gönderileceği kanalı ayarlarsınız. |
-| `.setupkoruma` | Sunucudaki kanal, rol ve emoji silinmelerine karşı koruma sağlar. |
-| `.setupkorumalog` | Koruma olaylarının loglanacağı kanalı belirlersiniz. |
-| `.setupbanlimit` | Moderasyon için günlük maksimum ban sınırını belirlersiniz. |
-| `.setupkicklimit` | Günlük maksimum kick sınırını belirlersiniz. |
+<summary><strong>👤 Kullanıcı Komutları</strong></summary>
+
+```
+.yilbasi
+.50krs @Ares/ID
+.afk
+.anım
+.arkadaşlarım @Ares/ID
+.avatar @Ares/ID
+.ayakkabınumaram
+.boşan @Ares/ID
+.aşk-ölç @Ares/ID
+.banner @Ares/ID
+.bj <Miktar>
+.cinnet @Ares/ID
+.coinflip <Miktar>
+.cvhazırla @Ares/ID
+.cuzdan @Kullanici/ID
+.dağıt
+.dedikodu @Ares/ID
+.detaylarım @Ares/ID
+.domalt @Ares/ID
+.dürt @Ares/ID
+.engel ekle/kaldır/liste @Ares/ID
+.evlen @Ares/ID
+.evlilik-durum @Ares/ID
+.fal
+.fatura
+.gelcektengeldim
+.git @Kullanıcı/ID
+.gizligörev
+.daily
+.gıdıkla @Ares/ID
+.hackledim @Ares/ID
+.hayaletyazı <süre(sn)> <mesaj>
+.hesapoluştur
+.hikayekurgula
+.ihanet @kullanıcı
+.ikizim
+.ilginçbilgi
+.ilgiver @Ares/ID
+.iltifat @Ares/ID
+.iqanaliz
+.kaccm
+.kaderharitası @Ares/ID
+.kahve @Ares/ID
+.kehanet
+.khaydo @Ares/ID
+.lafat @Ares/ID
+.maden
+.mirasımkime
+.motivasyon
+.profil @Ares/ID
+.ruhhayvanım
+.rulet <Miktar>
+.rüya
+.rüyayorumlama [rüya metni]
+.sapla @Ares/ID
+.sarıl @Ares/ID
+.savaş @Ares/ID <Miktar>
+.seniçizdim @Ares/ID
+.serdar @Ares/ID
+.ship @Ares/ID
+.slot <Miktar>
+.snake <Miktar>
+.sonaramamız
+.soy @Ares/ID
+.spotify @Ares/ID
+.sreyiz @Ares/ID
+.stat @Ares/ID
+.statc @Ares/ID
+.stats @Ares/ID
+.sunucubilgi
+.sırlarım
+.tkm @Ares/ID <Miktar>
+.tekme @Ares/ID
+.tokat @Ares/ID
+.topstat
+.transfer @Ares/ID Miktar
+.trolledim @Ares/ID
+.tweet Text
+.xox @Ares/ID
+.yala @Ares/ID
+.yazı-tura <Miktar>
+.yumruk @Ares/ID
+.zamansabitle @Ares/ID
+.zamantreni
+.booster [İsim]
+.çay @Ares/ID
+.çek @Ares/ID
+.öp @Ares/ID
+.invite @Ares/ID
+.ısır @Ares/ID
+.şanslıgün
+.şanslısayı
+```
 
 </details>
 
----
+### <details>
 
-<details>
-<summary>🎮 Kayıt Komutları</summary>
+<summary><strong>⚖️ Cezalandırma Komutları</strong></summary>
 
-| Komut | Açıklama |
-|-------|----------|
-| `.setupkayıtsistemi` | Kayıt sistemini aktif eder. |
-| `.setupkayıtkanal` | Kayıtların yapılacağı kanalı belirlersiniz. |
-| `.setupkayıtyetkili` | Kayıt yapabilecek yetkili rolünü ayarlarsınız. |
-| `.setuperkekrol` | Erkek üyeler için verilecek rolü ayarlarsınız. |
-| `.setupkadınrol` | Kadın üyeler için verilecek rolü ayarlarsınız. |
-| `.setupkayıtlog` | Kayıt işlemlerinin loglanacağı kanalı ayarlarsınız. |
-
-</details>
-
----
-
-<details>
-<summary>📛 Ceza Komutları</summary>
-
-| Komut | Açıklama |
-|-------|----------|
-| `.setupjailrol` | Jail durumundaki üyelere verilecek rolü ayarlarsınız. |
-| `.setupjaillog` | Jail işlemlerinin loglanacağı kanalı ayarlarsınız. |
-| `.setupmute` | Susturulan üyelere verilecek rolü ayarlarsınız. |
-| `.setupmutelog` | Mute işlemlerinin loglanacağı kanalı ayarlarsınız. |
-| `.setupwarnlog` | Uyarı sisteminin loglarının gönderileceği kanalı ayarlarsınız. |
+```
+.ban @Ares/ID Sebep
+.banliste
+.cezasorgu CezaID
+.yargı @Ares/ID Sebep
+.jail @Ares/ID Sebep
+.mute @Ares/ID Süre Sebep
+.reklam @Ares/ID
+.tempjail @Ares/ID Sebep Süre
+.timeout @Ares/ID Süre Sebep
+.unban @Ares/ID
+.unbanall
+.unyargı @Ares/ID
+.unjail @Ares/ID
+.unmute @Ares/ID
+.unreklam @Ares/ID
+.untjail @Ares/ID
+.unvmute @Ares/ID
+.vmute @Ares/ID Süre Sebep
+```
 
 </details>
 
----
+### <details>
 
-<details>
-<summary>📢 Etiket ve Duyuru Komutları</summary>
+</details><strong>📝 Kayıt Komutları</strong></details>
 
-| Komut | Açıklama |
-|-------|----------|
-| `.setuprolbilgi` | Rol etiketleme bilgilerini düzenlersiniz. |
-| `.setupduyuru` | Duyuru mesajlarının gönderileceği kanalı ayarlarsınız. |
-| `.setuptagrol` | Belirli tagı taşıyanlara özel rol verir. |
-
-</details>
-
----
-
-<details>
-<summary>🛠️ Diğer Kurulumlar</summary>
-
-| Komut | Açıklama |
-|-------|----------|
-| `.setuplog` | Genel log kanalı ayarlarsınız. |
-| `.setupprefix` | Botun komut ön ekini (prefix) değiştirirsiniz. |
-| `.setuphoşgeldin` | Sunucuya giren üyeler için hoş geldin mesajını ayarlarsınız. |
-| `.setupçıkış` | Sunucudan ayrılan üyeler için çıkış mesajı ayarlarsınız. |
-| `.setupkurallar` | Kurallar kanalını ayarlarsınız. |
-| `.setupisimtag` | Yeni gelen üyelerin isimlerine eklenecek tagı belirlersiniz. |
+```
+.detaylı-isimler @Ares/ID
+.kayıt @Ares/ID [İsim] [Yaş] [Cinsiyet]
+.kayıtsız @Ares/ID
+.taglı @Ares/ID
+.tag-say
+.kayıtları @Ares/ID
+.isim @Ares/ID [İsim] [Yaş]
+.isimler @Ares/ID
+```
 
 </details>
 
----
-
-<details>
-<summary>🔒 Güvenlik & Koruma</summary>
-
-| Komut | Açıklama |
-|-------|----------|
-| `.setupreklamengel` | Reklam içeren mesajları engeller. |
-| `.setupküfürengel` | Küfürlü mesajları otomatik olarak siler. |
-| `.setupspamengel` | Spam atılmasını engeller. |
-
-</details>
-
----
-
-📌 Her bir komutu çalıştırarak sistemleri kolayca kurabilirsiniz. Daha fazla yardım için `.yardım` yazmanız yeterli.
+<!-- Diğer kategoriler aşağıya eklenecek -->
