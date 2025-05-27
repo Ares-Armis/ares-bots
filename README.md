@@ -230,7 +230,7 @@
   </pre>
 </details>
 
-</details>
+    <details>
   <summary>👑 Ares Komutları</summary>
   <pre>
 .ares
