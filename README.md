@@ -5,7 +5,7 @@
 - 📝 **Kolay Yapılandırma:** Kurulumu çocuk oyuncağı haline getiren kolaylaştırılmış yapılandırma süreci.
 - 💯 **245+ Komut:** Sunucunuzun deneyimini zenginleştirmek için 150'den fazla çok yönlü komuta erişin.
   
-<h1🍭 >Discord Bot Komut Listesi</h1>
+## Discord Bot Komut Listesi</h1>
 <h2>Komut Kategorileri</h2>
 
 <details>
