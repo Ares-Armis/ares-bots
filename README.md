@@ -1,7 +1,7 @@
 ## ✨ Proje Hakkında Bilgi
 
 Merhaba, Ben Ares Bu projeye 3 ayımı harcadım ve bot, paylaşılmayacak ama aylık ücret ile uygub fiyatlara ve gelişmiş sistemlere uygun bir bot olun sunucumda diosanız tam yerindesiniz bot yaptrmak için
-[Ares](https://discord.com/users/1105504076919226410) İyi Günler Dilerim Ve İlginiz için teşekkür ederim! ha bu arada test sunucusunda botlar sürekli aktif bakmak isteyenler için [Test Server](https://discord.gg/5SWuAnGTWP)
+[onlyaress.](https://discord.com/users/1105504076919226410) İyi Günler Dilerim Ve İlginiz için teşekkür ederim! ha bu arada test sunucusunda botlar sürekli aktif bakmak isteyenler için [Test Server](https://discord.gg/5SWuAnGTWP)
 
 ## ✨ Özellikler
 
